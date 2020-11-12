@@ -1,3 +1,4 @@
+
 function change(index) {
     const p = document.getElementById('show');
     console.log('showw',p);
@@ -18,10 +19,11 @@ function change(index) {
         p.innerHTML = '<iframe width=100% height=100% src="./w03-div/div.html" />';
         break;
     case 6:
-        p.innerHTML = '<iframe width=100% height=100% src="./w04-tku.js/div_tku60.html" />';
+        p.innerHTML = '<iframe width=100% height=100% src="./w04-tku.js/div-tku60.html" />';
         break;
     case 7:
-        p.innerHTML = '<iframe width=100% height=100% src="./w06~W08-ms-clone/index.html" />';
+        p.innerHTML = '<iframe width=100% height=100% src="./w07-ms-clone/index.html" />';
         break;
     }
+
 }
